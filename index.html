@@ -70,6 +70,7 @@
   .shop{font-weight:500}
   .shop a{text-decoration:none; border-bottom:1px solid var(--border-strong)}
   .shop a:hover,.shop a:focus-visible{border-bottom-color:var(--ok); color:var(--ok)}
+  .note{display:block; font-family:var(--mono); font-size:.6875rem; color:var(--text-faint); margin-top:2px}
   .meta{font-family:var(--mono); font-size:.75rem; color:var(--text-dim); white-space:nowrap}
   .cc{display:inline-block; font-family:var(--mono); font-size:.6875rem; padding:2px 6px; border-radius:4px;
       border:1px solid var(--border-strong); color:var(--text-dim)}
@@ -174,7 +175,144 @@
 
 <!-- === DATA: tenhle blok přepisuje checker.py === -->
 <script id="amflow-data" type="application/json">
-{"generated": null, "shops": []}
+{
+ "generated": "2026-08-19T22:17:52+02:00",
+ "model": "Amflow TL Carbon",
+ "shops": [
+  {
+   "id": "akumo",
+   "name": "Akumo",
+   "cc": "CZ",
+   "url": "https://www.akumo.cz/amflow_v2117/",
+   "price": "96 690 Kč",
+   "note": null,
+   "km": 25.8,
+   "l": "soon",
+   "xl": "soon"
+  },
+  {
+   "id": "ekolo",
+   "name": "Ekolo.cz",
+   "cc": "CZ",
+   "url": "https://ekolo.cz/vyrobce-amflow",
+   "price": null,
+   "note": null,
+   "km": 38.2,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "2mcyklosport",
+   "name": "2M Cyklosport",
+   "cc": "CZ",
+   "url": "https://www.2mcyklosport.cz/elektrokola-amflow/",
+   "price": null,
+   "note": null,
+   "km": 164.7,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "bikelife",
+   "name": "Bike-Life",
+   "cc": "CZ",
+   "url": "https://www.bike-life.cz/elektrokola/amflow",
+   "price": null,
+   "note": null,
+   "km": 176.7,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "cyklokyjovsky",
+   "name": "Cyklo Kyjovský",
+   "cc": "CZ",
+   "url": "https://www.cyklokyjovsky.cz/amflow/",
+   "price": null,
+   "note": null,
+   "km": 194.3,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "vansprint",
+   "name": "VanSprint",
+   "cc": "DE",
+   "url": "https://vansprint.de/amflow-tl-carbon",
+   "price": "3 499 €",
+   "note": null,
+   "km": 442.9,
+   "l": "soon",
+   "xl": "soon"
+  },
+  {
+   "id": "2cycle",
+   "name": "2-Cycle",
+   "cc": "DE",
+   "url": "https://2-cycle.de/products/amflow-tl-carbon",
+   "price": "3 499 €",
+   "note": null,
+   "km": 568.0,
+   "l": "soon",
+   "xl": "soon"
+  },
+  {
+   "id": "kursport",
+   "name": "KUR sport",
+   "cc": "CZ",
+   "url": "https://www.kursport.cz/amflow",
+   "price": null,
+   "note": null,
+   "km": null,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "bikesnboards",
+   "name": "Bikes'n'Boards",
+   "cc": "DE",
+   "url": "https://www.bikesnboards.de/amflow-tl-carbon/",
+   "price": "3 499 €",
+   "note": null,
+   "km": null,
+   "l": "soon",
+   "xl": "soon"
+  },
+  {
+   "id": "liquidlife",
+   "name": "Liquid-Life",
+   "cc": "DE",
+   "url": "https://www.liquid-life.de/collections/amflow",
+   "price": "3 499 €",
+   "note": null,
+   "km": null,
+   "l": "no",
+   "xl": "no"
+  },
+  {
+   "id": "bikerboarder",
+   "name": "Biker-Boarder",
+   "cc": "DE",
+   "url": "https://www.biker-boarder.de/amflow/",
+   "price": null,
+   "note": null,
+   "km": null,
+   "l": "absent",
+   "xl": "absent"
+  },
+  {
+   "id": "fahrradxxl",
+   "name": "Fahrrad XXL",
+   "cc": "DE",
+   "url": "https://www.fahrrad-xxl.de/marken/amflow/",
+   "price": null,
+   "note": null,
+   "km": null,
+   "l": "absent",
+   "xl": "absent"
+  }
+ ]
+}
 </script>
 
 <script>
@@ -182,9 +320,10 @@
   var ICON = {
     ok:   '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3.2 3.2L13 5"/></svg>',
     soon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="6.2"/><path d="M8 4.6V8l2.3 1.6"/></svg>',
-    no:   '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg>'
+    no:   '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg>',
+    absent: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 8h8"/></svg>'
   };
-  var LABEL = { ok: 'Skladem', soon: 'Předobj.', no: 'Vyprodáno', unknown: 'Neznámo' };
+  var LABEL = { ok: 'Skladem', soon: 'Předobj.', no: 'Vyprodáno', absent: 'Nenabízí', unknown: 'Neznámo' };
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -195,11 +334,13 @@
     if (v === true || v === 'ok' || v === 'in_stock' || v === 'skladem') return 'ok';
     if (v === 'soon' || v === 'preorder' || v === 'predobjednavka') return 'soon';
     if (v === false || v === 'no' || v === 'out_of_stock' || v === 'vyprodano') return 'no';
+    if (v === 'absent' || v === 'nenabizi') return 'absent';
     return 'unknown';
   }
   function pill(v) {
-    var s = norm(v), cls = s === 'unknown' ? 'no' : s;
-    return '<span class="pill ' + cls + '">' + (ICON[cls] || ICON.no) + LABEL[s] + '</span>';
+    var s = norm(v);
+    var cls = s === 'ok' ? 'ok' : (s === 'soon' ? 'soon' : 'no');
+    return '<span class="pill ' + cls + '">' + (ICON[s] || ICON.absent) + LABEL[s] + '</span>';
   }
 
   var raw = document.getElementById('amflow-data').textContent;
@@ -224,7 +365,8 @@
     if (hit) { hits++; if (nearest === null && typeof s.km === 'number') nearest = s.km; }
     var name = esc(s.name || '?');
     return '<tr class="' + (hit ? 'instock' : '') + '">' +
-      '<td data-c="shop" class="shop">' + (s.url ? '<a href="' + esc(s.url) + '" rel="noopener">' + name + '</a>' : name) + '</td>' +
+      '<td data-c="shop" class="shop">' + (s.url ? '<a href="' + esc(s.url) + '" rel="noopener">' + name + '</a>' : name) +
+        (s.note ? '<span class="note">' + esc(s.note) + '</span>' : '') + '</td>' +
       '<td data-c="geo" class="meta"><span class="cc">' + esc(s.cc || '??') + '</span> ' +
         (typeof s.km === 'number' ? Math.round(s.km) + ' km' : '—') + '</td>' +
       '<td data-c="l">' + pill(s.l) + '</td>' +
