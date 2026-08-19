@@ -1,0 +1,7 @@
+# tenhle repo je VEŘEJNÝ – patří sem jen index.html + CNAME
+state.db
+state.db-*
+watchlist.json
+*.log
+*.env
+.DS_Store
