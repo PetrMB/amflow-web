@@ -27,7 +27,7 @@ def render(data):
   name=f'<a href="{e(s["url"])}" target="_blank" rel="noopener noreferrer">{e(s["name"])}</a>' if s['url'] else e(s['name'])
   rows.append(f'<tr data-status="{s["status"]}"><td><strong>{name}</strong><small>{e(s["source"])} · {e(s["date"])}</small></td><td class="price">{e(s["price"])}</td><td><span class="badge {s["status"]}">{LABEL[s["status"]]}</span><p>{e(s["note"])}</p></td></tr>')
  template=(ROOT/'template.html').read_text()
- values={'ROWS':''.join(rows),'TOTAL':str(len(rows)),'HITS':str(sum(s['status']=='confirmed' for s in data['shops'])),'CANDIDATES':str(sum(s['status']=='candidate' for s in data['shops'])),'CHECKED':e(data['checked']),'WHEN':datetime.fromisoformat(data['checked']).astimezone().strftime('%d. %m. %Y · %H:%M'),'SCHEDULE':e(data['schedule'])}
+ values={'AVAILABILITY':('Nalezeno výslovné potvrzení prodejného kusu L/XL. Stav a datum důkazu jsou uvedené v tabulce.' if any(s['status']=='confirmed' for s in data['shops']) else 'Žádný nalezený podklad zatím jednoznačně nepotvrzuje volný kus L/XL k okamžitému prodeji.'),'ROWS':''.join(rows),'TOTAL':str(len(rows)),'HITS':str(sum(s['status']=='confirmed' for s in data['shops'])),'CANDIDATES':str(sum(s['status']=='candidate' for s in data['shops'])),'CHECKED':e(data['checked']),'WHEN':datetime.fromisoformat(data['checked']).astimezone().strftime('%d. %m. %Y · %H:%M'),'SCHEDULE':e(data['schedule'])}
  for key,value in values.items():template=template.replace('{{'+key+'}}',value)
  assert '{{' not in template
  return template
