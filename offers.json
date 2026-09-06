@@ -1,0 +1,369 @@
+{
+  "generated": "2026-09-06T19:57:08.593700+00:00",
+  "checked": "2026-09-06T19:57:08.593700+00:00",
+  "model": "Amflow TL Carbon",
+  "size": "L/XL",
+  "schedule": "07:00 a 19:00 · Europe/Prague",
+  "shops": [
+    {
+      "name": "bikearei — Ottensheim, Rakousko",
+      "url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/amflow-tl-carbon-805316830/",
+      "price": "3 500 €",
+      "status": "candidate",
+      "note": "Firemní inzerát: nový TL Carbon L&XL skladem, osobní odběr; aktualizace 1. září. Nadějná nabídka; ověřit prodejnost konkrétního kusu.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Goisern Bikeworld — Bad Goisern, Rakousko",
+      "url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/amflow-tl-l-xl-lagernd-1185834801/",
+      "price": "3 499 €",
+      "status": "candidate",
+      "note": "Firemní inzerát: nový TL L/XL skladem, odběr i zaslání; aktualizace 31. srpna. Nadějná nabídka; ověřit prodejnost a dopravu do ČR.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "e4.bike — Schwäbisch Hall, Německo",
+      "url": "https://www.e4.bike/shop/marken/amflow",
+      "price": "3 499 €",
+      "status": "candidate",
+      "note": "Přehled obchodu uvádí TL Carbon L/XL k okamžitému odběru, dopravu o 2–3 pracovní dny déle. Webový údaj, prodejnost nepotvrzená.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "E-Bike Kasten — Wolfsburg, Německo",
+      "url": "https://www.ebike-kasten.de/amflow-tl-carbon-l-amp-xl-eu",
+      "price": "3 499 €",
+      "status": "candidate",
+      "note": "Web uvádí L&XL okamžitě dostupné na prodejně, pouze prodej na místě. Neověřeno; stejný web uváděl dostupnost i u showroomového kusu v Braunschweigu.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Bacher & Lenz — Pfunds, Rakousko",
+      "url": "https://www.willhaben.at/iad/shop/bacher-lenz-gmbh/a/uebergabe-versand-2537",
+      "price": "3 500 €",
+      "status": "candidate",
+      "note": "Starší firemní výpis z 19. srpna: TL Carbon 800 Wh L/XL skladem. Ověřit aktuálnost a prodejnost.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "E-Bike Kasten — Braunschweig, Německo",
+      "url": "https://www.ebike-kasten.de/amflow-tl-carbon-l-amp-xl-eu",
+      "price": "3 499 €",
+      "status": "demo",
+      "note": "Pouze showroomový kus. Není potvrzený volný kus k prodeji.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "German Bikes — Štrasburk, Francie",
+      "url": "https://www.german-bikes.fr/244-vtc-velos-de-ville-a-assistance-electrique",
+      "price": "3 499 €",
+      "status": "unknown",
+      "note": "Vyhledávač uváděl jeden kus, otevřený katalog ale vyprodáno a rezervaci. Rozporná dostupnost; nepočítat jako skladové.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "ekolo.cz — ČR",
+      "url": "https://ekolo.cz/amflow-tl-carbon",
+      "price": "96 690 Kč",
+      "status": "preorder",
+      "note": "L i XL předobjednávka. Není doložené skladem.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "TOROLA racing — ČR",
+      "url": "https://www.ktm-fm.cz/amflow-tl-sicilia-beige-2026-p620754/?vid=620749",
+      "price": "96 690 Kč",
+      "status": "preorder",
+      "note": "L i XL na objednávku. Není doložené skladem.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Cicli Mattio — Itálie",
+      "url": "https://ciclimattio.com/en/p/amflow/tl-carbon-beige-silice-120mm-l-xl-148mm-120mm-800-wh-27-5",
+      "price": "3 499 €",
+      "status": "preorder",
+      "note": "Na objednávku, orientačně 22.–26. září. Budoucí dostupnost.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "ALPIS — Slovensko",
+      "url": "https://www.alpis.sk/e-bike/",
+      "price": "3 999 €",
+      "status": "unknown",
+      "note": "Očekávaný kus. Není doložené skladem v L/XL.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Riders Boutique — Engelberg, Švýcarsko",
+      "url": "https://ridersboutique.ch/c/bikes-2/amflow-190/p/amflow-tl-carbon-gr-lxl-7395/",
+      "price": "3 199 CHF",
+      "status": "preorder",
+      "note": "L/XL předobjednávka. Není skladem.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Sattelfest Bikes — Německo",
+      "url": "https://sattelfest-bikes.de/amflow-tl-carbon/",
+      "price": "3 499 €",
+      "status": "unknown",
+      "note": "Velikosti uvedené, skladový stav nelze z načteného obsahu jednoznačně přiřadit k L/XL. Neověřeno.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Radsport Angerer — Rakousko",
+      "url": "https://www.rad-angerer.at/shop/e-bike/amflow-tl-carbon/",
+      "price": "3 499 €",
+      "status": "unknown",
+      "note": "L/XL v nabídce, bez jednoznačného potvrzení skladového kusu. Neověřeno.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "JONITO bikes — Německo",
+      "url": "https://jonito.com/eng/e-bikes/amflow-tl-carbon-2026-smmd-413-silica-beige-760424",
+      "price": "3 499 €",
+      "status": "preorder",
+      "note": "Varianta L&XL 44,8: předobjednávka od 30. 9. 2026. Orientační webový termín, prodejný kus nepotvrzen.",
+      "source": "Veřejný web",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "Radcenter Heiss — Memmingen",
+      "url": "https://www.rad-heiss.de/",
+      "price": "—",
+      "status": "unknown",
+      "note": "L/XL a prodejnost zatím nepotvrzené. Veřejný kontakt +49 8331 9255000.",
+      "source": "Veřejný kontakt; dostupnost neověřena",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "TheFlow",
+      "url": "https://theflow.bike/es/p34263_Amflow_TL_Carbon",
+      "price": "—",
+      "status": "preorder",
+      "note": "Očekávané dodávky od října, bez jistého data. Dřívější zářijový údaj webu není spolehlivý.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-04"
+    },
+    {
+      "name": "E-mobility — Steyr",
+      "url": "",
+      "price": "—",
+      "status": "demo",
+      "note": "Pouze demo kola; prodejní dodávky očekávány konec září až listopad.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-04"
+    },
+    {
+      "name": "2-Cycle",
+      "url": "https://2-cycle.de/products/amflow-tl-carbon",
+      "price": "—",
+      "status": "preorder",
+      "note": "Vyprodáno. Odhad vyřízení listopad nebo později; říjnový příjem do skladu není předání zákazníkovi.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-04"
+    },
+    {
+      "name": "MTBNOW",
+      "url": "",
+      "price": "—",
+      "status": "unknown",
+      "note": "Konkrétní termín dodání nepotvrzen.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-27"
+    },
+    {
+      "name": "AKUMO",
+      "url": "https://www.akumo.cz/amflow_v2117/",
+      "price": "—",
+      "status": "preorder",
+      "note": "Předobjednávka. Volný prodejný L/XL kus nepotvrzen.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-06"
+    },
+    {
+      "name": "ekone — Rheinfelden",
+      "url": "",
+      "price": "—",
+      "status": "unknown",
+      "note": "Kolo na místě; není výslovně potvrzeno, že je volné k prodeji.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Wellmannbikes",
+      "url": "",
+      "price": "—",
+      "status": "demo",
+      "note": "Testovací kus není určený k prodeji. Dřívější odhad prodejních kol: konec září.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-26"
+    },
+    {
+      "name": "Sport Gardena",
+      "url": "",
+      "price": "—",
+      "status": "preorder",
+      "note": "Není skladem, dřívější odhad polovina října.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Zweirad Prumbaum",
+      "url": "",
+      "price": "—",
+      "status": "unknown",
+      "note": "Dodací termín neznámý.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-27"
+    },
+    {
+      "name": "Tretmühle — Stuttgart",
+      "url": "",
+      "price": "—",
+      "status": "preorder",
+      "note": "Odhad dodávek říjen/listopad.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-01"
+    },
+    {
+      "name": "Zeller — Passau",
+      "url": "",
+      "price": "—",
+      "status": "preorder",
+      "note": "Odhad prosinec/leden; pouze osobní odběr.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-01"
+    },
+    {
+      "name": "KL Bikes — Regensburg",
+      "url": "",
+      "price": "—",
+      "status": "demo",
+      "note": "Pouze testovací L/XL, odhad prodejních dodávek říjen/listopad.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-28"
+    },
+    {
+      "name": "KUR sport",
+      "url": "https://www.kursport.cz/amflow",
+      "price": "—",
+      "status": "unknown",
+      "note": "Dostupnost prodejného L/XL nepotvrzená.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-26"
+    },
+    {
+      "name": "KYFRAD",
+      "url": "",
+      "price": "—",
+      "status": "unknown",
+      "note": "Dostupnost prodejného L/XL nepotvrzená.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-24"
+    },
+    {
+      "name": "Ihr Fahrradprofi",
+      "url": "",
+      "price": "—",
+      "status": "preorder",
+      "note": "Nabídka L/XL uvádí dostupnost od listopadu.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-09-03"
+    },
+    {
+      "name": "Ebike-24",
+      "url": "",
+      "price": "—",
+      "status": "unknown",
+      "note": "Automatická informace o skladu nepotvrzuje velikost ani prodejnost.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-08-18"
+    },
+    {
+      "name": "2M Cyklosport",
+      "url": "https://www.2mcyklosport.cz/elektrokola-amflow/",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Bike-Life",
+      "url": "https://www.bike-life.cz/elektrokola/amflow",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Cyklo Kyjovský",
+      "url": "https://www.cyklokyjovsky.cz/amflow/",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "VanSprint",
+      "url": "https://vansprint.de/amflow-tl-carbon",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Bikes'n'Boards",
+      "url": "https://www.bikesnboards.de/amflow-tl-carbon/",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Liquid-Life",
+      "url": "https://www.liquid-life.de/collections/amflow",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Biker-Boarder",
+      "url": "https://www.biker-boarder.de/amflow/",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    },
+    {
+      "name": "Fahrrad XXL",
+      "url": "https://www.fahrrad-xxl.de/marken/amflow/",
+      "price": "—",
+      "status": "unknown",
+      "note": "Původně sledovaný obchod. Stav z 25. srpna je zastaralý; vyžaduje novou kontrolu.",
+      "source": "Původní hlídač",
+      "date": "2026-08-25"
+    }
+  ]
+}

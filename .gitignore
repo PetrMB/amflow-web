@@ -5,3 +5,7 @@ watchlist.json
 *.log
 *.env
 .DS_Store
+__pycache__/
+private/
+*.pdf
+*.eml
