@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T19:57:08.593700+00:00",
+  "generated": "2026-09-07T07:11:08.329946+00:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -32,7 +32,7 @@
       "status": "candidate",
       "note": "Přehled obchodu uvádí TL Carbon L/XL k okamžitému odběru, dopravu o 2–3 pracovní dny déle. Webový údaj, prodejnost nepotvrzená.",
       "source": "Veřejný web",
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "information_date": null
     },
     {
@@ -42,7 +42,7 @@
       "status": "candidate",
       "note": "Web uvádí L&XL okamžitě dostupné na prodejně, pouze prodej na místě. Neověřeno; stejný web uváděl dostupnost i u showroomového kusu v Braunschweigu.",
       "source": "Veřejný web",
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "information_date": null
     },
     {
@@ -52,7 +52,7 @@
       "status": "candidate",
       "note": "Starší firemní výpis z 19. srpna: TL Carbon 800 Wh L/XL skladem. Ověřit aktuálnost a prodejnost.",
       "source": "Veřejný web",
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "information_date": "2026-08-19"
     },
     {
