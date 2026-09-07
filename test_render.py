@@ -22,6 +22,22 @@ class PublicBoundary(unittest.TestCase):
   for date,expected in [('2026-08-31',False),('2026-09-01',True),(None,False)]:
    sample['information_date']=date
    self.assertEqual(current(sample,self.data),expected)
+ def test_partial_run_shows_actual_time_without_refreshing_evidence(self):
+  self.data['last_run']='2026-09-07T07:11:00+00:00'
+  self.data['checked']='2026-09-06T19:57:00+00:00'
+  self.data['generated']='2026-09-08T10:00:00+00:00'
+  self.data['run_status']='partial'
+  self.data['failed_sources']=['bikearei','Goisern Bikeworld']
+  page=render(self.data)
+  self.assertIn('07. 09. 2026 · 09:11',page)
+  self.assertIn('06. 09. 2026 · 21:57',page)
+  self.assertIn('Částečná kontrola',page)
+  self.assertIn('Nedostupné zdroje: bikearei, Goisern Bikeworld',page)
+  self.assertNotIn('08. 09. 2026 · 12:00',page)
+ def test_complete_run_cannot_hide_failed_sources(self):
+  self.data['run_status']='complete'
+  self.data['failed_sources']=['bikearei']
+  with self.assertRaises(AssertionError):validate(self.data)
  def test_no_demo_counted_confirmed(self):
   for term in ['Braunschweig','Wellmann','Steyr','Regensburg']:
    self.assertEqual(next(s for s in self.data['shops'] if term in s['name'])['status'],'demo')

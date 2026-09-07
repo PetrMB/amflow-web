@@ -3,12 +3,17 @@
 import json, html, re
 from pathlib import Path
 from datetime import datetime
+from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parent
 LABEL={'candidate':'Web uvádí skladem','confirmed':'Potvrzený prodejný kus','demo':'Pouze demo / showroom','preorder':'Předobjednávka / termín','unknown':'Neověřeno'}
 def validate(data):
- assert set(data)=={'generated','checked','model','size','schedule','shops','cutoff'}
+ assert set(data)=={'generated','checked','model','size','schedule','shops','cutoff','last_run','run_status','failed_sources'}
  assert data['size']=='L/XL'
- for key in ('generated','checked'):datetime.fromisoformat(data[key])
+ assert data['run_status'] in ('complete','partial','failed')
+ assert isinstance(data['failed_sources'],list)
+ assert all(isinstance(x,str) and re.fullmatch(r'[\w .&/–-]{1,80}',x) for x in data['failed_sources'])
+ assert data['run_status']!='complete' or not data['failed_sources']
+ for key in ('generated','checked','last_run'):datetime.fromisoformat(data[key])
  for s in data['shops']:
   assert set(s)=={'name','url','price','status','note','source','date','information_date'}
   assert s['status'] in LABEL
@@ -34,7 +39,7 @@ def render(data):
   oldlabel='' if age=='current' else '<span class="badge">Historické / datum neověřeno</span> '
   rows.append(f'<tr data-age="{age}" data-status="{s["status"]}"><td><strong>{name}</strong><small>{e(s["source"])} · informace: {dated}<br>Kontrola: {e(s["date"])}</small></td><td class="price">{e(s["price"])}</td><td>{oldlabel}<span class="badge {s["status"]}">{LABEL[s["status"]]}</span><p>{e(s["note"])}</p></td></tr>')
  template=(ROOT/'template.html').read_text()
- values={'CURRENT':str(sum(current(s,data) for s in data['shops'])),'AVAILABILITY':('Nalezeno výslovné potvrzení prodejného kusu L/XL. Stav a datum důkazu jsou uvedené v tabulce.' if any(s['status']=='confirmed' and current(s,data) for s in data['shops']) else 'Žádný nalezený podklad zatím jednoznačně nepotvrzuje volný kus L/XL k okamžitému prodeji.'),'ROWS':''.join(rows),'TOTAL':str(len(rows)),'HITS':str(sum(s['status']=='confirmed' and current(s,data) for s in data['shops'])),'CANDIDATES':str(sum(s['status']=='candidate' and current(s,data) for s in data['shops'])),'CHECKED':e(data['checked']),'WHEN':datetime.fromisoformat(data['checked']).astimezone().strftime('%d. %m. %Y · %H:%M'),'SCHEDULE':e(data['schedule'])}
+ values={'LAST_RUN':e(data['last_run']),'LAST_RUN_WHEN':datetime.fromisoformat(data['last_run']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y · %H:%M'),'RUN_STATUS':{'complete':'Dokončená kontrola','partial':'Částečná kontrola','failed':'Kontrola se nezdařila'}[data['run_status']],'RUN_DETAIL':e(('Nedostupné zdroje: '+', '.join(data['failed_sources'])+'. Starší zjištění zůstávají zachována.') if data['failed_sources'] else 'Rozsah kontroly odpovídá uvedeným datům u jednotlivých zdrojů.'),'CURRENT':str(sum(current(s,data) for s in data['shops'])),'AVAILABILITY':('Nalezeno výslovné potvrzení prodejného kusu L/XL. Stav a datum důkazu jsou uvedené v tabulce.' if any(s['status']=='confirmed' and current(s,data) for s in data['shops']) else 'Žádný nalezený podklad zatím jednoznačně nepotvrzuje volný kus L/XL k okamžitému prodeji.'),'ROWS':''.join(rows),'TOTAL':str(len(rows)),'HITS':str(sum(s['status']=='confirmed' and current(s,data) for s in data['shops'])),'CANDIDATES':str(sum(s['status']=='candidate' and current(s,data) for s in data['shops'])),'CHECKED':e(data['checked']),'WHEN':datetime.fromisoformat(data['checked']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y · %H:%M'),'SCHEDULE':e(data['schedule'])}
  for key,value in values.items():template=template.replace('{{'+key+'}}',value)
  assert '{{' not in template
  return template
