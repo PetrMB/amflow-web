@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T07:23:54+02:00",
+  "generated": "2026-09-12T19:25:27+02:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -414,10 +414,20 @@
       "source": "Veřejný web",
       "date": "2026-09-09",
       "information_date": null
+    },
+    {
+      "name": "Grundtner (Rakousko)",
+      "url": "https://grundtner.com/products/amflow-tl-carbon-125nm-avinox-m2-e-mtb",
+      "price": "Na dotaz",
+      "status": "demo",
+      "note": "Web výslovně uvádí pouze demo modely na prodejně. Předobjednávka s odhadem září/říjen; zaslání vyloučeno. Nedatované tvrzení, volný prodejný L/XL nepotvrzen.",
+      "source": "Veřejný web",
+      "date": "2026-09-12",
+      "information_date": null
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-09-12T07:23:54+02:00",
+  "last_run": "2026-09-12T19:25:27+02:00",
   "run_status": "partial",
   "failed_sources": [
     "bikearei"
