@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T19:02:59+02:00",
+  "generated": "2026-09-26T07:03:30+02:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -22,7 +22,7 @@
       "status": "unknown",
       "note": "Původní inzerát z 31. srpna uváděl nový TL L/XL skladem. Při kontrole 19. září přesměrovává jako ukončený inzerát; aktuální dostupnost neověřena, prodej ani vyprodání z toho nevyplývá.",
       "source": "Veřejný web",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "information_date": "2026-08-31"
     },
     {
@@ -32,7 +32,7 @@
       "status": "preorder",
       "note": "L/XL je opět ve výpisu, nyní jako brzy dostupné, bez konkrétního termínu. Skladový prodejný kus nepotvrzen; detail produktu se nepodařilo načíst.",
       "source": "Veřejný web",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "information_date": null
     },
     {
@@ -42,7 +42,7 @@
       "status": "candidate",
       "note": "Web uvádí L&XL okamžitě dostupné na prodejně, pouze prodej na místě. Neověřeno; stejný web uváděl dostupnost i u showroomového kusu v Braunschweigu.",
       "source": "Veřejný web",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "information_date": null
     },
     {
@@ -52,7 +52,7 @@
       "status": "candidate",
       "note": "Starší firemní výpis z 19. srpna: TL Carbon 800 Wh L/XL skladem. Ověřit aktuálnost a prodejnost.",
       "source": "Veřejný web",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "information_date": "2026-08-19"
     },
     {
@@ -427,7 +427,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-09-25T19:02:59+02:00",
+  "last_run": "2026-09-26T07:03:30+02:00",
   "run_status": "partial",
   "failed_sources": [
     "bikearei",
