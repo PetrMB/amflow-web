@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T07:43:07+02:00",
+  "generated": "2026-09-29T19:28:28+02:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -102,7 +102,7 @@
       "status": "preorder",
       "note": "Na objednávku. Webové odhady se mezi načtenými verzemi liší; spolehlivý termín dodání L/XL nepotvrzen.",
       "source": "Veřejný web",
-      "date": "2026-09-23",
+      "date": "2026-09-29",
       "information_date": null
     },
     {
@@ -150,9 +150,9 @@
       "url": "https://jonito.com/eng/e-bikes/amflow-tl-carbon-2026-smmd-413-silica-beige-760424",
       "price": "3 499 €",
       "status": "preorder",
-      "note": "Varianta L&XL 44,8: předobjednávka od 30. 9. 2026. Orientační webový termín, prodejný kus nepotvrzen.",
+      "note": "Varianta L&XL 44,8: web nyní uvádí dostupnost od 20. 12. 2026 (dříve 30. 9.). Orientační nedatovaný webový odhad, nikoli potvrzené dodání nebo volný prodejný kus.",
       "source": "Veřejný web",
-      "date": "2026-09-07",
+      "date": "2026-09-29",
       "information_date": null
     },
     {
@@ -437,7 +437,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-09-29T07:43:07+02:00",
+  "last_run": "2026-09-29T19:28:28+02:00",
   "run_status": "partial",
   "failed_sources": [
     "bikearei",
