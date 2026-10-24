@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T08:33:06+02:00",
+  "generated": "2026-10-24T19:01:12+02:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -484,10 +484,20 @@
       "source": "Veřejný web",
       "date": "2026-10-12",
       "information_date": null
+    },
+    {
+      "name": "Cicli Maggi — Forte dei Marmi, Itálie",
+      "url": "https://www.ciclimaggi.it/",
+      "price": "—",
+      "status": "preorder",
+      "note": "Prodejce 24. října potvrdil, že dříve dostupný L/XL byl prodán. Další kusy očekává v prosinci; původní webové tvrzení o okamžité dostupnosti je neaktuální. Termín není zaručen.",
+      "source": "Zobecněná dostupnost",
+      "date": "2026-10-24",
+      "information_date": "2026-10-24"
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-10-24T08:33:06+02:00",
+  "last_run": "2026-10-24T19:01:12+02:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
