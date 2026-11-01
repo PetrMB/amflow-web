@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T18:59:26+01:00",
+  "generated": "2026-11-01T06:56:54+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -39,10 +39,10 @@
       "name": "E-Bike Kasten — Wolfsburg, Německo",
       "url": "https://www.ebike-kasten.de/amflow-tl-carbon-l-amp-xl-eu",
       "price": "3 499 €",
-      "status": "candidate",
-      "note": "Web uvádí L&XL okamžitě dostupné na prodejně, pouze prodej na místě. Neověřeno; stejný web uváděl dostupnost i u showroomového kusu v Braunschweigu.",
+      "status": "demo",
+      "note": "Produktová stránka nyní výslovně označuje L/XL jako DEMO BIKE. Nejde o potvrzený volný nový prodejný kus. Datum původního tvrzení neuvedeno.",
       "source": "Veřejný web",
-      "date": "2026-10-28",
+      "date": "2026-11-01",
       "information_date": null
     },
     {
@@ -60,9 +60,9 @@
       "url": "https://www.ebike-kasten.de/amflow-tl-carbon-l-amp-xl-eu",
       "price": "3 499 €",
       "status": "demo",
-      "note": "Pouze showroomový kus. Není potvrzený volný kus k prodeji.",
+      "note": "Produktová stránka nyní výslovně označuje L/XL jako DEMO BIKE. Nejde o potvrzený volný nový prodejný kus. Datum původního tvrzení neuvedeno.",
       "source": "Zobecněná dostupnost",
-      "date": "2026-09-06",
+      "date": "2026-11-01",
       "information_date": null
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-10-31T18:59:26+01:00",
+  "last_run": "2026-11-01T06:56:54+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
