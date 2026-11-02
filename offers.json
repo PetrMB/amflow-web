@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T06:56:54+01:00",
+  "generated": "2026-11-02T14:37:18+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -29,10 +29,10 @@
       "name": "e4.bike — Schwäbisch Hall, Německo",
       "url": "https://www.e4.bike/shop/marken/amflow",
       "price": "3 499 €",
-      "status": "unknown",
-      "note": "L/XL z aktuálního výpisu zmizelo; uvedeny jsou pouze S/M jako brzy dostupné. Dostupnost L/XL neověřena; odstranění z výpisu nepotvrzuje prodej ani vyprodání.",
+      "status": "preorder",
+      "note": "L/XL se znovu objevilo ve výpisu za 3 499 € jako brzy dostupné. Detail varianty vrací 404; konkrétní termín ani volný prodejný kus nepotvrzen. Datum původního tvrzení neuvedeno.",
       "source": "Veřejný web",
-      "date": "2026-10-28",
+      "date": "2026-11-02",
       "information_date": null
     },
     {
@@ -47,12 +47,12 @@
     },
     {
       "name": "Bacher & Lenz — Pfunds, Rakousko",
-      "url": "https://www.willhaben.at/iad/shop/bacher-lenz-gmbh/a/uebergabe-versand-2537",
+      "url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/amflow-tl-carbon-800wh-dj-avinox-lagernd-2034745784/",
       "price": "3 500 €",
       "status": "candidate",
-      "note": "Starší firemní výpis z 19. srpna: TL Carbon 800 Wh L/XL skladem. Ověřit aktuálnost a prodejnost.",
+      "note": "Inzerát znovu zobrazuje nový L/XL skladem, upraven 30. října. Stejné tvrzení bylo zveřejněno již v srpnu; samotné obnovení inzerátu neprokazuje nový volný kus. Aktuální prodejnost neověřena.",
       "source": "Veřejný web",
-      "date": "2026-10-28",
+      "date": "2026-11-02",
       "information_date": "2026-08-19"
     },
     {
@@ -494,12 +494,23 @@
       "source": "Zobecněná dostupnost",
       "date": "2026-10-24",
       "information_date": "2026-10-24"
+    },
+    {
+      "name": "All Mountains — Wiesbaden, Německo",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/amflow-tl-carbon-groesse-l-xl-ab-sofort-bei-uns-verfuegbar-/3547605346-217-4903",
+      "price": "3 499 €",
+      "status": "candidate",
+      "note": "Inzerát z 21. října výslovně nabízí nový L/XL ihned dostupný. Pouze osobní odběr. Popis zve k testovací jízdě; volný prodejný kus odlišný od dema ani nepřidělení rezervaci nejsou výslovně doloženy.",
+      "source": "Veřejný web",
+      "date": "2026-11-02",
+      "information_date": "2026-10-21"
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-01T06:56:54+01:00",
+  "last_run": "2026-11-02T14:37:18+01:00",
   "run_status": "partial",
   "failed_sources": [
-    "HS Elbe eBikes – detail nabídky"
+    "HS Elbe eBikes – detail nabídky",
+    "e4.bike – detail varianty L/XL"
   ]
 }
