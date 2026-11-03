@@ -504,6 +504,16 @@
       "source": "Veřejný web",
       "date": "2026-11-02",
       "information_date": "2026-10-21"
+    },
+    {
+      "name": "Fahrrad XXL — Německo",
+      "url": "https://www.fahrrad-xxl.de/amflow-tl-carbon-m000113194",
+      "price": "3 499 €",
+      "status": "candidate",
+      "note": "Oficiální produktová stránka nyní u L/XL uvádí poslední 1 kus ihned dostupný a dodání do 7 pracovních dnů. Datum skladového tvrzení neuvedeno; volný prodejný kus a doprava do ČR nejsou nezávisle potvrzeny.",
+      "source": "Veřejný web",
+      "date": "2026-11-03",
+      "information_date": null
     }
   ],
   "cutoff": "2026-09-01",
