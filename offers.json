@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T19:02:37+01:00",
+  "generated": "2026-11-04T07:32:16+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -29,10 +29,10 @@
       "name": "e4.bike — Schwäbisch Hall, Německo",
       "url": "https://www.e4.bike/shop/marken/amflow",
       "price": "3 499 €",
-      "status": "preorder",
-      "note": "L/XL je ve výpisu za 3 499 € jako brzy dostupné. Detail varianty je opět dostupný, bez konkrétního termínu nebo potvrzení volného prodejného kusu. Datum původního tvrzení neuvedeno.",
+      "status": "unknown",
+      "note": "L/XL opět chybí v produktovém výpisu. U TL Carbon jsou zobrazené pouze varianty S/M jako brzy dostupné. Aktuální dostupnost L/XL neověřena.",
       "source": "Veřejný web",
-      "date": "2026-11-02",
+      "date": "2026-11-04",
       "information_date": null
     },
     {
@@ -517,7 +517,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-03T19:02:37+01:00",
+  "last_run": "2026-11-04T07:32:16+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
