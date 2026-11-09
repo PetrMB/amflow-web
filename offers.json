@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T19:02:42+01:00",
+  "generated": "2026-11-09T07:26:30+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -457,12 +457,12 @@
     },
     {
       "name": "eBike24 — Německo",
-      "url": "https://www.ebike24.com/amflow-tl-carbon/12209-002",
+      "url": "https://www.elektrofahrrad24.de/amflow-tl-carbon/12209-002",
       "price": "3 499 €",
       "status": "preorder",
-      "note": "L/XL ve výběru; varianta 12209-002. Webový odhad doručení v Německu 19.–23. 11. 2026. Nedatované tvrzení, nikoli potvrzený termín nebo volný prodejný kus.",
+      "note": "Německý web u varianty L/XL uvádí odhad doručení 16.–18. prosince 2026. Datum zveřejnění odhadu není uvedeno. Volný prodejný kus ani termín dodání nejsou potvrzené.",
       "source": "Veřejný web",
-      "date": "2026-10-04",
+      "date": "2026-11-09",
       "information_date": null
     },
     {
@@ -517,7 +517,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-08T19:02:42+01:00",
+  "last_run": "2026-11-09T07:26:30+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
