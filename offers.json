@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T19:05:13+01:00",
+  "generated": "2026-11-11T07:10:42+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -50,9 +50,9 @@
       "url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/amflow-tl-carbon-800wh-dj-avinox-lagernd-2034745784/",
       "price": "3 500 €",
       "status": "candidate",
-      "note": "Inzerát znovu zobrazuje nový L/XL skladem, upraven 30. října. Stejné tvrzení bylo zveřejněno již v srpnu; samotné obnovení inzerátu neprokazuje nový volný kus. Aktuální prodejnost neověřena.",
+      "note": "Inzerát upravený 10. listopadu stále uvádí „Lagernd“ v titulku. Popis uvádí velikost L/XL. Titulek se stejným tvrzením je doložen už v srpnu, aktuální volný prodejný kus není ověřený.",
       "source": "Veřejný web",
-      "date": "2026-11-02",
+      "date": "2026-11-11",
       "information_date": "2026-08-19"
     },
     {
@@ -527,7 +527,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-10T19:05:13+01:00",
+  "last_run": "2026-11-11T07:10:42+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
