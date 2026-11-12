@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T19:02:19+01:00",
+  "generated": "2026-11-12T07:03:27+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -524,10 +524,20 @@
       "source": "Veřejný web",
       "date": "2026-11-10",
       "information_date": null
+    },
+    {
+      "name": "eBike Center Süd — Blumberg, Německo",
+      "url": "https://ebike-center-sued.de/de-de/products/amflow-tl-carbon",
+      "price": "3 499 €",
+      "status": "demo",
+      "note": "L/XL je na prodejně k prohlédnutí a vyzkoušení posedu. Web umožňuje poptat předobjednávku. Obecný odhad konce listopadu je zobrazený u výchozího S/M.",
+      "source": "Veřejný web",
+      "date": "2026-11-12",
+      "information_date": null
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-11T19:02:19+01:00",
+  "last_run": "2026-11-12T07:03:27+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
