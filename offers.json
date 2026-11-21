@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T18:57:44+01:00",
+  "generated": "2026-11-21T09:00:08+01:00",
   "checked": "2026-09-06T19:57:08.593700+00:00",
   "model": "Amflow TL Carbon",
   "size": "L/XL",
@@ -180,10 +180,10 @@
       "url": "",
       "price": "—",
       "status": "demo",
-      "note": "První dodávky TL Carbon už začaly v malých počtech v obou velikostech. Volný prodejný L/XL není potvrzen. Odhad expedice zbývajících objednávek z centrálního skladu je prosinec nebo později.",
+      "note": "Prodejce očekává dostupnost objednaného L/XL koncem příštího týdne, orientačně koncem listopadu. Žádá domluvu osobního odběru.",
       "source": "Zobecněná dostupnost",
-      "date": "2026-11-04",
-      "information_date": "2026-11-04"
+      "date": "2026-11-21",
+      "information_date": "2026-11-21"
     },
     {
       "name": "2-Cycle",
@@ -537,7 +537,7 @@
     }
   ],
   "cutoff": "2026-09-01",
-  "last_run": "2026-11-20T18:57:44+01:00",
+  "last_run": "2026-11-21T09:00:08+01:00",
   "run_status": "partial",
   "failed_sources": [
     "HS Elbe eBikes – detail nabídky"
