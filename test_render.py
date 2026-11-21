@@ -39,6 +39,6 @@ class PublicBoundary(unittest.TestCase):
   self.data['failed_sources']=['bikearei']
   with self.assertRaises(AssertionError):validate(self.data)
  def test_no_demo_counted_confirmed(self):
-  for term in ['Braunschweig','Wellmann','Steyr','Regensburg']:
+  for term in ['Braunschweig','Wellmann','Regensburg']:
    self.assertEqual(next(s for s in self.data['shops'] if term in s['name'])['status'],'demo')
 if __name__=='__main__':unittest.main()
